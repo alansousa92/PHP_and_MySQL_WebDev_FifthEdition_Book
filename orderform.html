@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Bob's Auto Parts - Formulario de Pedidos</title>
+		<link rel="stylesheet" href="">
+	</head>
+	<body>
+		<form action="processorder.php" method="post">
+			<table style="border: 0px;">
+				<tr style="background: #cccccc;">
+					<td style="width: 150px; text-align: center;">Item</td>
+					<td style="width: 15px; text-align: center;">Quantidade</td>
+				</tr>
+				<tr>
+					<td>Pneus</td>
+					<td><input type="text" name="pneuqti" size="3" maxlength="3"></td>
+				</tr>
+				<tr>
+					<td>Óleo</td>
+					<td><input type="text" name="oleoqti" size="3" maxlength="3"></td>
+				</tr>
+				<tr>
+					<td>Velas de Ignição</td>
+					<td><input type="text" name="velaignqti" size="3" maxlength="3"></td>
+				</tr>
+				<tr>
+					<td colspan="2" style="text-align: center;"><input type="submit" value="Enviar"></td>
+				</tr>
+			</table>
+		</form>
+		
+	</body>
+</html>
